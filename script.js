@@ -4,7 +4,12 @@ function toggleMenu() {
     navLinks.classList.toggle('active');
 }
 
-// Alert message for "Learn More" button
+// Alert for "Shop Now" button
 function showAlert() {
-    alert("Thank you for your interest! More details coming soon.");
+    alert("Redirecting to shop!");
+}
+
+// Show product details
+function showProductDetails(productName) {
+    alert(`Viewing details for ${productName}`);
 }
